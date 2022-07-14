@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const BookDetailsPage());
+  runApp(const MaterialApp(home: BookDetailsPage()));
 }
 
 class BookDetailsPage extends StatelessWidget {
